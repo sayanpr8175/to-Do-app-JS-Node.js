@@ -24,7 +24,7 @@ app.use(express.urlencoded({extended: false}))
 function passwordProtected(req, res, next){
   res.set('WWW-Authenticate', 'Basic realm = "To do list of Sayan"')
   console.log(req.headers.authorization)
-  if (req.headers.authorization == "Basic c2F5YW46UFI0MDE=") {
+  if (req.headers.authorization == "Basic <Base 64 authenticate Removed due to security >=") {
       next()
   }else{
       res.status(401).send("Authentication required or Contact Sayan Pramanik")
