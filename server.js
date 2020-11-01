@@ -12,7 +12,7 @@ if(port == null || port == "") {
 
 app.use(express.static('public'))
 
-let connectionString = 'mongodb+srv://todoappuser:mongo4562@cluster0.korkr.mongodb.net/TodoApp?retryWrites=true&w=majority'
+let connectionString = '<mongoDB URI >?retryWrites=true&w=majority' // removed mongo db URI
 mongodb.connect(connectionString, {useNewUrlParser: true}, function(err, client){
     db = client.db()
     app.listen(port)
