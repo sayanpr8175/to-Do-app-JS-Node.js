@@ -11,7 +11,7 @@
 &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;  &nbsp; &nbsp;
 
 
-[X] References : udemy.com/course/learn-javascript-full-stack-from-scratch
+-[X] References : udemy.com/course/learn-javascript-full-stack-from-scratch
 
 
 
